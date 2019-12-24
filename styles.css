@@ -1,0 +1,36 @@
+header{
+    padding: 15px 0px 15px 613px;
+    background: black;
+    color: rgb(219, 21, 170);
+}
+nav{
+    display: flex;
+}
+ul{
+    margin:0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    color: rgb(219, 21, 170);
+}
+section{
+    padding: 0px 0px 500px 0px;
+    background: rgb(219, 21, 170);
+    color: black;
+}
+footer{
+    background: black;
+    color: rgb(219, 21, 170);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}            
+button{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(219, 21, 170);
+}
