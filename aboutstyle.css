@@ -17,6 +17,10 @@ li{
     color: rgb(219, 21, 170);
 }
 
+li:hover{
+    background-color: pink;
+}
+
 section ul li{
     margin: 0px 90px;
 }
