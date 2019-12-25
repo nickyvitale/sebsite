@@ -1,10 +1,13 @@
 header{
     padding: 15px 0px 15px 613px;
     background: black;
-    color: rgb(219, 21, 170);
+    color: white;
 }
 nav{
     display: flex;
+}
+a{
+    color: white;
 }
 ul{
     margin:0 auto;
@@ -14,19 +17,23 @@ ul{
 }
 li{
     display: inline-block;
-    color: rgb(219, 21, 170);
+    color: white;
 }
 li:hover{
-    background-color: pink;
+    background-color: white;
+}
+
+a:hover{
+    color: black;
 }
 section{
     padding: 0px 0px 500px 0px;
-    background: rgb(219, 21, 170);
+    background: white;
     color: black;
 }
 footer{
     background: black;
-    color: rgb(219, 21, 170);
+    color: white;
 }
 body{
     margin: 0;
@@ -35,5 +42,5 @@ body{
 }            
 button{
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(219, 21, 170);
+    color: white;
 }

@@ -1,7 +1,7 @@
 header{
     padding: 15px 0px 15px 613px;
     background: black;
-    color: rgb(219, 21, 170);
+    color:white;
 }
 nav{
     display: flex;
@@ -14,11 +14,21 @@ ul{
 }
 li{
     display: inline-block;
-    color: rgb(219, 21, 170);
+    color: white;
 }
 
-li:hover{
-    background-color: pink;
+a{
+    color: white;
+}
+
+figure{
+    color: black;
+}
+li.navi:hover{
+    background-color: white;
+}
+li.navi a:hover{
+    color: black;
 }
 
 section ul li{
@@ -27,12 +37,12 @@ section ul li{
 
 section{
     padding: 0px;
-    background: rgb(219, 21, 170);
+    background: white;
     color: black;
 }
 footer{
     background: black;
-    color: rgb(219, 21, 170);
+    color: white;
 }
 body{
     margin: 0;
@@ -41,5 +51,5 @@ body{
 }            
 button{
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(219, 21, 170);
+    color: white;
 }
