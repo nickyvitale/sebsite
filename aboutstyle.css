@@ -16,8 +16,13 @@ li{
     display: inline-block;
     color: rgb(219, 21, 170);
 }
+
+section ul li{
+    margin: 0px 90px;
+}
+
 section{
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     background: rgb(219, 21, 170);
     color: black;
 }
