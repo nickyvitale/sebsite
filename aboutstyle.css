@@ -1,7 +1,7 @@
 header{
-    padding: 15px 0px 15px 613px;
     background: black;
     color:white;
+    text-align: center;
 }
 nav{
     display: flex;
