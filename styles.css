@@ -15,6 +15,9 @@ ul{
     list-style-type: none;
     text-align: center;
 }
+#toggle{
+    color: black;
+}
 li{
     display: inline-block;
     color: white;
