@@ -67,6 +67,7 @@ function toggleEffect(){
     }
     else{
         toggled = true;
+        headerText.style.color = "white";
         headerText.innerHTML = "Seb Sells ";
     }
 }
