@@ -35,9 +35,9 @@ function addDisplay(){
             headerText.innerHTML += "l";
             break;
         case "Seb Sell":
-            headerText.innerHTML += "s";
+            headerText.innerHTML += "z";
             break;
-        case "Seb Sells":
+        case "Seb Sellz":
             if(count <= 4){
                blink();
             }
@@ -68,6 +68,6 @@ function toggleEffect(){
     else{
         toggled = true;
         headerText.style.color = "white";
-        headerText.innerHTML = "Seb Sells ";
+        headerText.innerHTML = "Seb Sellz ";
     }
 }
