@@ -1,15 +1,20 @@
 let headerText = document.getElementById("header");
 
-headerText.innerHTML = "S";
+headerText.innerHTML = "L";
 
 let toggled = false;
 
 let count = 0;
+headerText.style.color = "black";
 
 setInterval(addDisplay, 500);
 
 function addDisplay(){
     switch(headerText.innerHTML){
+        case "L":
+            headerText.innerHTML = "S";
+            headerText.style.color = "white";
+            break;
         case "S":
             count = 0;
             headerText.innerHTML += "e";
@@ -56,7 +61,8 @@ function blink(){
 
 function toggleEffect(){
     if(toggled){
-        headerText.innerHTML = "S";
+        headerText.style.color = "black";
+        headerText.innerHTML = "L";
         toggled = false;
     }
     else{

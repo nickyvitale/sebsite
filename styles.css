@@ -9,6 +9,10 @@ nav{
 a{
     color: white;
 }
+#homeAndButton{
+    display: inline-block;
+    margin: 0px 645px;
+}
 ul{
     margin:0 auto;
     padding: 0;

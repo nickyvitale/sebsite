@@ -20,6 +20,10 @@ li{
 a{
     color: white;
 }
+#homeAndButton{
+    display: inline-block;
+    margin: 0px 645px;
+}
 
 #toggle{
     color: black;
