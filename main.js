@@ -7,7 +7,7 @@ let toggled = false;
 let count = 0;
 headerText.style.color = "black";
 
-setInterval(addDisplay, 500);
+setInterval(addDisplay, 250);
 
 function addDisplay(){
     switch(headerText.innerHTML){
