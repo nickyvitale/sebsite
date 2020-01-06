@@ -1,3 +1,4 @@
+// THE FOLLOWING IS THE CODE FOR HEADER EFFECT
 let headerText = document.getElementById("header");
 
 headerText.innerHTML = "L";
@@ -71,3 +72,4 @@ function toggleEffect(){
         headerText.innerHTML = "Seb Sellz ";
     }
 }
+// END OF CODE FOR HEADER EFFECT

@@ -1,7 +1,15 @@
 header{
-    text-align: center;
     background: black;
     color: white;
+}
+header{
+    text-align: center;
+}
+#heder{
+    text-align: center;
+}
+.hide{
+    display: none;
 }
 nav{
     display: flex;
@@ -10,8 +18,7 @@ a{
     color: white;
 }
 #homeAndButton{
-    display: inline-block;
-    margin: 0px 640px;
+    text-align: center;
 }
 ul{
     margin:0 auto;
@@ -31,6 +38,13 @@ li:hover{
 }
 
 a:hover{
+    color: black;
+}
+#time:hover{
+    background-color: white;
+}
+
+#time:hover{
     color: black;
 }
 section{
